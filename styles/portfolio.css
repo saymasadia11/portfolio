@@ -1,0 +1,39 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: rgb(243, 117, 8);
+}
+.btn-primary{
+    border-radius: 8px;
+    background: rgb(243, 117, 8);
+    border: 0;
+    font-weight:700;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 10px 25px;
+
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 35px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+
+}
+nav li{
+    margin-right: 50px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(85, 82, 82);
+}
